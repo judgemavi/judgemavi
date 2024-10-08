@@ -1,0 +1,174 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --heading-color: #000000;
+  --border-color: #000000;
+  --bg-alt-color: #e8b99c;
+  & .moon {
+    display: block;
+  }
+  & .sun {
+    display: none;
+  }
+}
+
+[data-theme='dark'] {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --heading-color: #ffffff;
+  --border-color: #ffffff;
+  --bg-alt-color: #05011f;
+  & .moon {
+    display: none;
+  }
+  & .sun {
+    fill: #e3910e;
+    display: block;
+  }
+}
+
+body {
+  color: var(--text-color);
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+}
+
+h1,
+h2,
+h3,
+a,
+p {
+  color: var(--heading-color);
+}
+
+#theme-toggle {
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 100%;
+  background-color: transparent;
+  & .icon {
+    width: 24px;
+    height: 24px;
+  }
+  cursor: pointer;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.main {
+  flex: 1;
+  overflow: auto;
+  padding: 0 32px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.action {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+#particle-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(to bottom, var(--bg-color), var(--bg-alt-color));
+}
+
+#content {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 1400px;
+}
+
+.company {
+  display: flex;
+  gap: 16px;
+}
+
+.role {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 32px;
+  & .circle {
+    position: absolute;
+    top: 25px;
+    left: -8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+  }
+}
+
+.company-name {
+  padding-left: 16px;
+}
+
+.contact {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 32px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 64px;
+  width: 100%;
+}
+
+.tenure {
+  border-left: 2px solid var(--border-color);
+  padding-bottom: 32px;
+}
+
+.technologies {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: 2px solid var(--border-color);
+}
