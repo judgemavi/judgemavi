@@ -9,7 +9,7 @@ body {
   --text-color: #333333;
   --heading-color: #000000;
   --border-color: #000000;
-  --bg-alt-color: #e8b99c;
+  --bg-alt-color: #ffffff;
   & .moon {
     display: block;
   }
@@ -76,12 +76,14 @@ p {
   padding: 0 32px;
   max-width: 800px;
   margin: 0 auto;
+  scrollbar-width: none;
 }
 
 .actions {
   display: flex;
   gap: 16px;
   align-items: center;
+  padding: 0 16px;
 }
 
 .action {
@@ -103,7 +105,6 @@ p {
   position: relative;
   z-index: 1;
   margin: 0 auto;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   height: 100%;
