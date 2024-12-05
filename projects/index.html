@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Projects - Jasjeet Mavi</title>
+    <meta name="title" content="Projects - Jasjeet Mavi" />
+    <meta
+      name="description"
+      content="A collection of my technical projects and experiments"
+    />
+    <meta property="og:title" content="Projects - Jasjeet Mavi" />
+    <meta
+      property="og:description"
+      content="A collection of my technical projects and experiments"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jasmavi.dev/projects" />
+    <meta
+      property="og:image"
+      content="https://jasmavi.dev/assets/profilePic.jpg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/projects.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      !(function (t, e) {
+        var o, n, p, r;
+        e.__SV ||
+          ((window.posthog = e),
+          (e._i = []),
+          (e.init = function (i, s, a) {
+            function g(t, e) {
+              var o = e.split(".");
+              2 == o.length && ((t = t[o[0]]), (e = o[1])),
+                (t[e] = function () {
+                  t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+                });
+            }
+            ((p = t.createElement("script")).type = "text/javascript"),
+              (p.async = !0),
+              (p.src =
+                s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") +
+                "/static/array.js"),
+              (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(
+                p,
+                r
+              );
+            var u = e;
+            for (
+              void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
+                u.people = u.people || [],
+                u.toString = function (t) {
+                  var e = "posthog";
+                  return (
+                    "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e
+                  );
+                },
+                u.people.toString = function () {
+                  return u.toString(1) + ".people (stub)";
+                },
+                o =
+                  "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(
+                    " "
+                  ),
+                n = 0;
+              n < o.length;
+              n++
+            )
+              g(u, o[n]);
+            e._i.push([i, s, a]);
+          }),
+          (e.__SV = 1));
+      })(document, window.posthog || []);
+      posthog.init("phc_OwLIUOfhnFUdKGFFJIr8R0UkjAVg4oQlB5vX6c2hyOE", {
+        api_host: "https://us.i.posthog.com",
+        person_profiles: "identified_only", // or 'always' to create profiles for anonymous users as well
+      });
+    </script>
+  </head>
+  <body data-theme="light">
+    <canvas id="particle-canvas"></canvas>
+    <div id="content">
+      <header class="header">
+        <a href="/" style="text-decoration: none;"><h1>Jasjeet Mavi</h1></a>
+        <nav class="actions">
+          <button id="theme-toggle" aria-label="Toggle color mode">
+            <svg class="icon moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z" clip-rule="evenodd" />
+            </svg>
+            <svg class="icon sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+          </button>
+          <a href="/projects" class="action">Projects</a>
+        </nav>
+      </header>
+
+      <main class="projects-grid">
+        <article class="project-card">
+          <div class="project-content">
+            <h2>Cell Conquest</h2>
+            <p class="project-description">
+              A multiplayer version of Conway's Game of Life with added rules
+              for conquest and domination. Players compete to control territory
+              through strategic cell placement and survival mechanics.
+            </p>
+          </div>
+          <div class="card-footer">
+            <div class="tech-stack">
+              <span class="tech-tag">Bun</span>
+              <span class="tech-tag">Redis</span>
+              <span class="tech-tag">ElysiaJS</span>
+              <span class="tech-tag">React</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://cell-conquest.jasmavi.dev"
+                target="_blank"
+                class="project-link"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-content">
+            <h2>Tiny Bits</h2>
+            <p class="project-description">
+              An initiative to build tiny, composable, zero-dependency components using browser native APIs.
+            </p>
+          </div>
+          <div class="card-footer">
+            <div class="tech-stack">
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">HTML Dialog</span>
+              <span class="tech-tag">Zero Dependencies</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://www.npmjs.com/package/@tiny-bits/react-dialog"
+                target="_blank"
+                class="project-link"
+                >NPM Package</a
+              >
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
+    <script src="/js/theme-toggle.js"></script>
+    <script src="/js/particle-effect.js" defer></script>
+  </body>
+</html>

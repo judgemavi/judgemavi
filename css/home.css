@@ -1,0 +1,40 @@
+.company {
+  display: flex;
+  gap: 16px;
+}
+
+.role {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 32px;
+  & .circle {
+    position: absolute;
+    top: 25px;
+    left: -8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+  }
+}
+
+.company-name {
+  padding-left: 16px;
+}
+
+.contact {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.tenure {
+  border-left: 2px solid var(--border-color);
+  padding-bottom: 32px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: 2px solid var(--border-color);
+}

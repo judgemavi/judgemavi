@@ -18,7 +18,7 @@ body {
   }
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --bg-color: #000000;
   --text-color: #ffffff;
   --heading-color: #ffffff;
@@ -36,7 +36,7 @@ body {
 body {
   color: var(--text-color);
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 
@@ -87,8 +87,30 @@ p {
 }
 
 .action {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: none;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 32px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 64px;
+  width: 100%;
+}
+
+.technologies {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 #particle-canvas {
@@ -109,67 +131,4 @@ p {
   flex-direction: column;
   height: 100%;
   max-width: 1400px;
-}
-
-.company {
-  display: flex;
-  gap: 16px;
-}
-
-.role {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  padding-left: 32px;
-  & .circle {
-    position: absolute;
-    top: 25px;
-    left: -8px;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: var(--text-color);
-  }
-}
-
-.company-name {
-  padding-left: 16px;
-}
-
-.contact {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-}
-
-.flex-col {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  padding-top: 32px;
-}
-
-.flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 64px;
-  width: 100%;
-}
-
-.tenure {
-  border-left: 2px solid var(--border-color);
-  padding-bottom: 32px;
-}
-
-.technologies {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-.profile-pic {
-  border-radius: 50%;
-  border: 2px solid var(--border-color);
 }
