@@ -70,6 +70,10 @@ p {
   padding: 0 16px;
 }
 
+.site-home-link {
+  text-decoration: none;
+}
+
 .main {
   flex: 1;
   overflow: auto;
@@ -131,4 +135,9 @@ p {
   flex-direction: column;
   height: 100%;
   max-width: 1400px;
+}
+
+[data-page-shell] {
+  display: block;
+  height: 100%;
 }
