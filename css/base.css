@@ -10,12 +10,14 @@ body {
   --heading-color: #000000;
   --border-color: #000000;
   --bg-alt-color: #ffffff;
-  & .moon {
-    display: block;
-  }
-  & .sun {
-    display: none;
-  }
+}
+
+:root .moon {
+  display: block;
+}
+
+:root .sun {
+  display: none;
 }
 
 [data-theme="dark"] {
@@ -24,13 +26,15 @@ body {
   --heading-color: #ffffff;
   --border-color: #ffffff;
   --bg-alt-color: #05011f;
-  & .moon {
-    display: none;
-  }
-  & .sun {
-    fill: #e3910e;
-    display: block;
-  }
+}
+
+[data-theme="dark"] .moon {
+  display: none;
+}
+
+[data-theme="dark"] .sun {
+  fill: #e3910e;
+  display: block;
 }
 
 body {
@@ -54,11 +58,12 @@ p {
   border: none;
   border-radius: 100%;
   background-color: transparent;
-  & .icon {
-    width: 24px;
-    height: 24px;
-  }
   cursor: pointer;
+}
+
+#theme-toggle .icon {
+  width: 24px;
+  height: 24px;
 }
 
 .header {
@@ -74,15 +79,6 @@ p {
   text-decoration: none;
 }
 
-.main {
-  flex: 1;
-  overflow: auto;
-  padding: 0 32px;
-  max-width: 1080px;
-  margin: 0 auto;
-  scrollbar-width: none;
-}
-
 .actions {
   display: flex;
   gap: 16px;
@@ -93,28 +89,6 @@ p {
 .action {
   font-size: 1rem;
   text-decoration: none;
-}
-
-.flex-col {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  padding-top: 32px;
-}
-
-.flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 64px;
-  width: 100%;
-}
-
-.technologies {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
 }
 
 #particle-canvas {
