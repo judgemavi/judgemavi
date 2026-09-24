@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" fill="none" stroke="#191919" stroke-width="1.4">
+  <title>Dialog layers</title>
+  <desc>An exploded diagram of a native dialog, its backdrop, and the underlying page.</desc>
+  <path d="m40 176 177-70 144 67-176 72z" fill="#ededeb"/>
+  <path d="m40 137 177-70 144 67-176 72z" fill="#e4ff00"/>
+  <path d="m68 91 149-59 116 54-148 60z" fill="#ededeb"/>
+  <path d="m68 91 149-59 116 54-148 60z" stroke-width="2"/>
+  <path d="m87 100 148-59m-104 72 73-29m-58 36 97-39"/>
+  <path d="m218 111 38-16 22 10-38 16z" fill="#ff2bd6"/>
+  <path d="M40 137v39m321-42v39M185 146v99M68 91v75m265-80v77" stroke-dasharray="3 5" stroke-opacity=".45"/>
+  <path d="M310 45h63v43m-6 0h12M23 210v25h53"/>
+  <circle cx="310" cy="45" r="4" fill="#ff2bd6"/>
+</svg>

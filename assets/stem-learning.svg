@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 220" fill="none" stroke="#191919" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+  <title>Learning connects the STEM disciplines</title>
+  <desc>An open book branches into science, technology, engineering, and mathematics.</desc>
+  <!-- Shared paths grow from the book into four fields of discovery. -->
+  <g stroke-opacity=".25" stroke-dasharray="3 6">
+    <path d="M22 116h416M230 122v85M60 17v92m110-92v92m120-92v92m110-92v92" />
+    <path d="M18 195h108m208 0h108" />
+  </g>
+  <path d="M230 153v-22M60 96v23h340V91M170 89v30m120-27v27" />
+  <circle cx="230" cy="119" r="5" fill="#ff2bd6" />
+  <circle cx="170" cy="119" r="3" fill="#ededeb" />
+  <circle cx="290" cy="119" r="3" fill="#ededeb" />
+  <!-- Science: an orbital study. -->
+  <circle cx="60" cy="56" r="34" fill="#e4ff00" stroke="none" />
+  <ellipse cx="60" cy="56" rx="38" ry="14" transform="rotate(-35 60 56)" />
+  <ellipse cx="60" cy="56" rx="38" ry="14" transform="rotate(35 60 56)" />
+  <ellipse cx="60" cy="56" rx="14" ry="38" />
+  <circle cx="60" cy="56" r="5" fill="#191919" />
+  <circle cx="91" cy="37" r="4" fill="#ff2bd6" />
+  <!-- Technology: a small, open code window. -->
+  <rect x="132" y="24" width="77" height="64" fill="#ededeb" />
+  <path d="M132 24h77v14h-77Z" fill="#ff2bd6" />
+  <path d="M140 31h2m5 0h2m5 0h2m-1 20-10 10 10 10m29-20 10 10-10 10m-10-23-7 26" />
+  <!-- Engineering: a supported span. -->
+  <path d="M251 85h78m-73-9h68M258 76V43h64v33M258 51h64m-64 25 21-25 22 25 21-25M258 85v10m64-10v10" />
+  <path d="M251 76h78v9h-78Z" fill="#e4ff00" />
+  <path d="M249 95h18m46 0h18" />
+  <circle cx="290" cy="29" r="7" fill="#ff2bd6" />
+  <!-- Mathematics: marks on a construction field. -->
+  <circle cx="399" cy="56" r="35" fill="#ededeb" />
+  <path d="M379 45h14m-7-7v14m14 10h17m-17 9h17m-16-29 10 10m0-10-10 10" />
+  <circle cx="384" cy="68" r="4" fill="#e4ff00" />
+  <!-- One open book: a foundation shared across the disciplines. -->
+  <path d="M151 150v42l79 17 79-17v-42l-79 15Z" fill="#ededeb" />
+  <path d="M158 139q37-5 72 19 35-24 72-19v46q-39-5-72 17-33-22-72-17Z" fill="#ededeb" />
+  <path d="M230 158v44m-60-48q23 0 46 14m-46-4q23 0 46 14m-46-4q23 0 35 8m39-14q23-14 46-14m-46 24q23-14 46-14m-34 18q12-8 34-8" />
+  <path d="m258 144 12-4v31l-6-3-6 7Z" fill="#ff2bd6" />
+  <path d="M219 211h22" />
+</svg>

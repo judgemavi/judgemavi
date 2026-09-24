@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" fill="none" stroke="#191919" stroke-width="1.5" stroke-linecap="round">
+  <title>Finding flow</title><desc>Overlapping waves settle into parallel paths before branching toward new work.</desc>
+  <path d="M8 24h382M8 160h382M225 12v155" stroke-dasharray="3 6" stroke-opacity=".25"/>
+  <path d="M8 100c40-140 69 130 114 0s69 0 105 0h161M8 112c40-140 69 130 114 0s69 0 105 0h161M8 124c40-140 69 130 114 0s69 0 105 0h88q20 0 20 20v13M8 88c40-100 69 100 114 0s69 0 105 0h73q20 0 20-20V44"/>
+  <path d="M8 100c40-140 69 130 114 0s69 0 105 0h161" stroke="#ff2bd6" stroke-width="4"/>
+  <circle cx="225" cy="100" r="7" fill="#e4ff00"/>
+  <path d="m376 89 12 11-12 11m-65-58 9-9 9 9m-3 94 9 10 9-10"/>
+  <path d="M14 32V16h16m344 0h16v16M14 148v16h16" stroke-opacity=".5"/>
+</svg>

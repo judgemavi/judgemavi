@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 250" fill="none" stroke="#191919" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <title>Isolated work, shared direction</title><desc>A task fans out into three isolated worktrees. The branches meet a review checkpoint before merging, with project memory feeding back into planning.</desc>
+  <path d="M18 31h384M18 219h384M210 12v224" stroke-dasharray="3 6" stroke-opacity=".25"/>
+  <path d="M54 122h37V55h51m-51 67h51m-51 0v67h51M228 55h36v67h27m-63 0h63m-63 67h36v-67m75 0h55"/>
+  <circle cx="40" cy="122" r="14" fill="#e4ff00"/><path d="M34 122h12m-6-6v12"/>
+  <g fill="#ededeb"><rect x="142" y="35" width="86" height="40"/><rect x="142" y="102" width="86" height="40"/><rect x="142" y="169" width="86" height="40"/></g>
+  <path d="M142 47h86m-86 67h86m-86 67h86"/>
+  <path d="m166 54-6 7 6 7m34-14 6 7-6 7m-16-15-5 17m-13 50-6 7 6 7m34-14 6 7-6 7m-16-15-5 17m-13 50-6 7 6 7m34-14 6 7-6 7m-16-15-5 17"/>
+  <path d="m315 98 24 24-24 24-24-24z" fill="#ff2bd6"/><path d="m307 122 6 6 11-13"/>
+  <circle cx="383" cy="122" r="10" fill="#e4ff00"/>
+  <path d="M383 145v86H40v-85m-5 7 5-7 5 7" stroke-dasharray="4 5"/>
+  <path d="M67 221h43v20H67z" fill="#ededeb"/><path d="M74 228h29m-29 6h20"/>
+  <circle cx="91" cy="122" r="4" fill="#191919"/>
+</svg>

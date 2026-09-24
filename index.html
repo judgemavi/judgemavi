@@ -6,10 +6,10 @@
   <title>Jasjeet Mavi's portfolio</title>
   <meta name="title" content="Jasjeet Mavi's portfolio site." />
   <meta name="description"
-    content="I'm Jasjeet Mavi, a technology leader with a knack for a hands-on approach to building systems." />
+    content="I'm Jasjeet Mavi. Servant leadership, hands-on engineering, project rescue, and reverse engineering." />
   <meta property="og:title" content="Jasjeet Mavi's portfolio site." />
   <meta property="og:description"
-    content="I'm Jasjeet Mavi, a technology leader with a knack for a hands-on approach to building systems." />
+    content="I'm Jasjeet Mavi. Servant leadership, hands-on engineering, project rescue, and reverse engineering." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://jasmavi.dev/" />
   <meta property="og:image" content="https://jasmavi.dev/assets/profilePic.jpg" />
@@ -21,279 +21,258 @@
   <noscript>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" />
   </noscript>
-  <link rel="stylesheet" href="/css/base.css?v=projects-ink" />
+  <meta name="theme-color" content="#e4ff00" />
+  <link rel="stylesheet" href="/css/styles.css?v=consolidated" />
   <script>
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
     posthog.init("phc_OwLIUOfhnFUdKGFFJIr8R0UkjAVg4oQlB5vX6c2hyOE",{api_host:"https://us.i.posthog.com",person_profiles:"identified_only"});
   </script>
-  <script src="/js/collage.js?v=tokens" defer></script>
 </head>
 
-<body data-theme="light">
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="header">
     <div class="header-inner">
-      <a href="/" class="site-home-link">Jasjeet Mavi</a>
+      <a href="/" class="site-home-link" aria-label="Jasjeet Mavi, home">JM<span aria-hidden="true">.</span></a>
       <nav class="actions" aria-label="Primary">
-        <a href="#experience" class="action">Experience</a>
-        <a href="#projects" class="action">Projects</a>
+        <a href="#work" class="action">The work <span aria-hidden="true">↓</span></a>
+        <a href="#contact" class="action">Contact</a>
       </nav>
     </div>
   </header>
-  <main class="main">
-      <section class="desk" aria-label="Snapshot">
-        <canvas class="desk-collage" data-collage="desk" aria-hidden="true"></canvas>
-        <div class="desk-field">
-          <article class="window window-about">
-            <header class="titlebar">
-              <span>About</span>
-            </header>
-            <div class="window-body">
-              <h1>
-                A technology leader with a knack for a hands-on approach to
-                building systems.
-              </h1>
+  <main class="main" id="main">
+      <section class="cover-sheet" aria-labelledby="cover-name">
+        <div class="column">
+          <div class="cover-register"><span>JM—01 / TECHNOLOGY LEADERSHIP &amp; ENGINEERING</span><span>TORONTO, CANADA ↗</span></div>
+          <div class="cover-layout">
+            <div class="cover-intro">
+              <div class="cover-identity"><img src="/assets/profilePic.jpg" alt="Jasjeet Mavi" width="104" height="120" fetchpriority="high" /><h1 class="cover-name" id="cover-name">Jasjeet Mavi<span class="name-period">_</span></h1></div>
+              <p class="cover-statement">Think it.<br /><span>Build it.</span></p>
+              <a class="cover-cta" href="#work"><span>Explore the work</span><span aria-hidden="true">↘</span></a>
             </div>
-          </article>
-
-          <article class="window window-profile">
-            <header class="titlebar">
-              <span>Profile</span>
-              <span>1.0</span>
-            </header>
-            <div class="window-body">
-              <img src="/assets/profilePic.jpg" alt="Jasjeet Mavi" class="profile-pic" width="240" height="240" />
+            <div class="cover-about">
+              <div class="panel-label"><span>THE PRACTICE / PEOPLE ↔ SYSTEMS</span><span aria-hidden="true">●</span></div>
+              <figure class="practice-map">
+                <img src="/assets/practice-map.svg" alt="People and software layers share a balanced beam. Below, a repaired path represents project rescue, and a magnifying glass traces a circuit’s internal connections for reverse engineering." width="560" height="600" />
+                <img class="practice-detail practice-detail--balance" src="/assets/practice-map.svg#balance" alt="People and software layers share a balanced beam." width="560" height="234" />
+                <img class="practice-detail practice-detail--investigation" src="/assets/practice-map.svg#investigation" alt="A repaired path and a magnifying glass tracing a circuit represent project rescue and reverse engineering." width="560" height="170" />
+                <figcaption>
+                  <div class="map-label map-people"><strong>Servant<br />leadership</strong><span>Support people. Create direction.</span></div>
+                  <div class="map-label map-engineering"><strong>Hands-on<br />engineering</strong><span>The details. The code. The making.</span></div>
+                  <div class="map-label map-rescue"><strong>Project<br />rescue</strong><span>A working way forward.</span></div>
+                  <div class="map-label map-reverse"><strong>Reverse<br />engineering</strong><span>Understand how the pieces fit.</span></div>
+                </figcaption>
+              </figure>
+              <div class="panel-footer"><span>DESIGN / BUILD / REPEAT</span><span class="panel-vents" aria-hidden="true"></span></div>
             </div>
-          </article>
-
-          <article class="window window-contact" id="contact">
-            <header class="titlebar">
-              <span>Contact</span>
-            </header>
-            <div class="window-body">
-              <ul class="contact-links">
-                <li>
-                  <a href="mailto:jasjeetmavi@gmail.com">
-                    <img src="/assets/mail.png" alt="" width="48" height="48" />
-                    <span>Email</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/jasjeetmavi/" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/ln.png" alt="" width="48" height="48" />
-                    <span>LinkedIn</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/judgemavi" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/github.png" alt="" width="48" height="48" />
-                    <span>GitHub</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="window window-stack" id="technologies">
-            <header class="titlebar">
-              <span>Stack</span>
-            </header>
-            <div class="window-body">
-              <ul class="stack">
-                <li>
-                  <img src="/assets/react.svg" alt="" width="28" height="28" />
-                  <span>React</span>
-                </li>
-                <li>
-                  <img src="/assets/nextjs.svg" alt="" width="28" height="28" />
-                  <span>Next.js</span>
-                </li>
-                <li>
-                  <img src="/assets/angular.svg" alt="" width="28" height="28" />
-                  <span>Angular</span>
-                </li>
-                <li>
-                  <img src="/assets/typescript.png" alt="" width="28" height="28" />
-                  <span>TypeScript</span>
-                </li>
-                <li>
-                  <img src="/assets/rust.png" alt="" width="28" height="28" />
-                  <span>Rust</span>
-                </li>
-                <li>
-                  <img src="/assets/go.png" alt="" width="28" height="28" />
-                  <span>Go</span>
-                </li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="window window-now">
-            <header class="titlebar">
-              <span>Now</span>
-            </header>
-            <div class="window-body">
-              <p class="now-company">kyndryl</p>
-              <p class="now-role">Associate Director, Software Engineering</p>
-              <p class="now-meta">Sep 2025 — Present</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="record" id="experience">
-        <canvas class="desk-collage" data-collage="experience" aria-hidden="true"></canvas>
-        <div class="column section-plate">
-          <h2 class="display">Experience</h2>
-          <div class="record-list plate-field">
-            <article class="window">
-              <header class="titlebar">
-                <h3 class="company-name">
-                  <a href="https://www.kyndryl.com/" target="_blank" rel="noopener noreferrer">kyndryl</a>
-                </h3>
-              </header>
-              <div class="window-body">
-                <ul class="roles">
-                  <li class="role-row">
-                    <h4>Associate Director, Software Engineering</h4>
-                    <time>Sep 2025 — Present</time>
-                  </li>
-                </ul>
-              </div>
-            </article>
-
-            <article class="window">
-              <header class="titlebar">
-                <h3 class="company-name">
-                  <a href="https://rangle.io/" target="_blank" rel="noopener noreferrer">Rangle.io</a>
-                </h3>
-              </header>
-              <div class="window-body">
-                <ul class="roles">
-                  <li class="role-row">
-                    <h4>Principal Technical Director</h4>
-                    <time>Nov 2023 — Sep 2025</time>
-                  </li>
-                  <li class="role-row">
-                    <h4>Technical Director, Enterprise Lead</h4>
-                    <time>Jun 2023 — Nov 2023</time>
-                  </li>
-                  <li class="role-row">
-                    <h4>Technical Director</h4>
-                    <time>Jan 2023 — Jun 2023</time>
-                  </li>
-                </ul>
-              </div>
-            </article>
-
-            <article class="window">
-              <header class="titlebar">
-                <h3 class="company-name">
-                  <a href="https://www.cgi.com/en" target="_blank" rel="noopener noreferrer">CGI</a>
-                </h3>
-              </header>
-              <div class="window-body">
-                <ul class="roles">
-                  <li class="role-row">
-                    <h4>Director Consulting Services</h4>
-                    <time>Nov 2022 — Dec 2022</time>
-                  </li>
-                  <li class="role-row">
-                    <h4>Director Consulting Expert</h4>
-                    <time>Aug 2021 — Jul 2022</time>
-                  </li>
-                  <li class="role-row">
-                    <h4>Senior Consultant</h4>
-                    <time>Apr 2020 — Aug 2021</time>
-                  </li>
-                </ul>
-              </div>
-            </article>
-
-            <article class="window">
-              <header class="titlebar">
-                <h3 class="company-name">
-                  <a href="https://www.datacm.com/" target="_blank" rel="noopener noreferrer">DCM</a>
-                </h3>
-              </header>
-              <div class="window-body">
-                <ul class="roles">
-                  <li class="role-row">
-                    <h4>Senior Programmer</h4>
-                    <time>Nov 2018 — Apr 2020</time>
-                  </li>
-                  <li class="role-row">
-                    <h4>Programmer</h4>
-                    <time>May 2015 — Oct 2018</time>
-                  </li>
-                </ul>
-              </div>
-            </article>
+          </div>
+          <div class="cover-specifications">
+            <div class="spec-current"><span class="eyebrow">CURRENTLY / KYNDRYL</span><p>Associate Director,<br />Software Engineering</p><span>Branch Transformation Unit · Aug 2025—Present</span></div>
+            <div class="spec-materials"><span class="eyebrow">TOOLS OF THE TRADE</span><p>React / Next.js / Angular<br />TypeScript / Rust / Go</p></div>
+            <div class="spec-contact"><span class="eyebrow">ELSEWHERE</span><div><a href="mailto:jasjeetmavi@gmail.com">Email ↗</a><a href="https://www.linkedin.com/in/jasjeetmavi/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/judgemavi" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div>
           </div>
         </div>
       </section>
 
-      <section class="projects" id="projects">
-        <canvas class="desk-collage" data-collage="projects" aria-hidden="true"></canvas>
-        <div class="column section-plate">
-          <h2 class="display">Projects</h2>
-          <div class="project-list plate-field">
-            <article class="window">
-              <header class="titlebar">
-                <span>Cell Conquest</span>
-                <span>game</span>
-              </header>
-              <div class="window-body">
-                <p class="project-description">
-                  A multiplayer version of Conway's Game of Life with added rules
-                  for conquest and domination. Players compete to control territory
-                  through strategic cell placement and survival mechanics.
-                </p>
-                <p class="tech-stack">Bun · Redis · ElysiaJS · React</p>
-                <div class="project-links">
-                  <a href="https://github.com/judgemavi/cell-conquest" class="project-link" target="_blank" rel="noopener noreferrer">Code</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="window">
-              <header class="titlebar">
-                <span>@tiny-bits/react-dialog</span>
-                <span>npm</span>
-              </header>
-              <div class="window-body">
-                <p class="project-description">
-                  Zero dependency, accessible, and composable React dialog component built on top of the native dialog
-                  element.
-                </p>
-                <p class="tech-stack">TypeScript · React · HTML Dialog · Zero Dependencies</p>
-                <div class="project-links">
-                  <a href="https://www.npmjs.com/package/@tiny-bits/react-dialog" class="project-link" target="_blank" rel="noopener noreferrer">npm</a>
-                  <a href="https://github.com/judgemavi/tiny-bits" class="project-link" target="_blank" rel="noopener noreferrer">Code</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="window">
-              <header class="titlebar">
-                <span>@tiny-bits/react-popover</span>
-                <span>npm</span>
-              </header>
-              <div class="window-body">
-                <p class="project-description">
-                  Zero dependency, accessible, and composable React popover component built on top of the popover api.
-                </p>
-                <p class="tech-stack">TypeScript · React · HTML Popover · Zero Dependencies</p>
-                <div class="project-links">
-                  <a href="https://www.npmjs.com/package/@tiny-bits/react-popover" class="project-link" target="_blank" rel="noopener noreferrer">npm</a>
-                  <a href="https://github.com/judgemavi/tiny-bits" class="project-link" target="_blank" rel="noopener noreferrer">Code</a>
-                </div>
-              </div>
-            </article>
+      <section class="work-archive" id="work" aria-labelledby="work-heading">
+        <div class="column">
+          <div class="archive-register"><span>THE WORK / 2015—PRESENT</span><span>COMPANY WORK &amp; INDEPENDENT BUILDS</span></div>
+          <div class="archive-heading"><h2 id="work-heading">Work in<br /><span>the real world.</span></h2><p><span>Teams. Systems. Things that ship.</span><span class="archive-arrow" aria-hidden="true">↙</span></p></div>
+          <nav class="archive-index" aria-label="Jump to company work"><a href="#company-work"><span>01</span> Kyndryl</a><a href="#rangle-work"><span>02</span> Rangle.io</a><a href="#cgi-work"><span>03</span> CGI</a><a href="#dcm-work"><span>04</span> DCM</a><a href="#independent-work"><span>05</span> Independent</a></nav>
+          <section class="company-sheet" id="company-work" aria-labelledby="company-work-heading">
+  <aside class="company-context">
+    <span class="sheet-code">01 / 2025—Present</span>
+    <h3 id="company-work-heading">Kyndryl</h3>
+    <ul class="company-roles"><li><strong>Associate Director, Software Engineering</strong><span>Aug 2025—Present</span></li></ul>
+    <p class="leadership-note">Branch Transformation Unit · Toronto</p>
+  </aside>
+  <div class="systems-bench">
+    <article class="cash-system" aria-labelledby="cash-case-heading">
+      <header class="system-register"><span>01.01 / CASH RECYCLING</span><span class="system-status">COMPLETED · OFFERED IN RFPs</span></header>
+      <h4 id="cash-case-heading">Different devices.<br /><span>One application.</span></h4>
+      <p class="system-intro">Built a device-agnostic Rust and React application for bank tellers’ cash transactions, replacing reliance on third-party software. Owned the architecture and implementation end to end, with testing support from a team made up primarily of non-developers.</p>
+      <div class="system-composition">
+        <figure class="system-drawing">
+          <img src="/assets/cash-platform.svg" alt="Two cash-recycling devices connect through adapters to one Rust application with a React teller interface and analytics." width="440" height="280" loading="lazy" />
+          <figcaption><strong>10×</strong><span><b>devices per node</b> — supported by simulator testing against the incumbent vendor solution’s known limits.</span></figcaption>
+        </figure>
+        <dl class="system-notes">
+          <div><dt><span aria-hidden="true">A /</span> THE TEAM</dt><dd>Streamlined lab testing and releases. Introduced automated regression testing to reduce repetitive work. Established documentation practices to retain knowledge and support onboarding.</dd></div>
+          <div><dt><span aria-hidden="true">B /</span> THE ENGINEERING</dt><dd>Supports two devices through device-specific adapters, with new adapters enabling future hardware. Built protocol simulators to extend testing beyond the physical devices in the lab.</dd></div>
+          <div><dt><span aria-hidden="true">C /</span> CASH INTELLIGENCE</dt><dd>Historical usage dashboards, cash-demand forecasts, and collection or replenishment recommendations for branch cash planning.</dd></div>
+        </dl>
+      </div>
+      <section class="deployment-map" aria-labelledby="deployment-heading">
+        <header><h5 id="deployment-heading">One application. Three deployment modes.</h5><p>Without additional development for each configuration.</p></header>
+        <div class="deployment-modes">
+          <div><svg viewBox="0 0 120 44" aria-hidden="true" focusable="false"><path d="M15 33V17l14-10 14 10v16zm14-10h14M64 33V17L78 7l14 10v16z"/><rect x="23" y="23" width="12" height="10"/><rect x="72" y="23" width="12" height="10"/></svg><strong>Standalone</strong><span>Application per branch</span></div>
+          <div><svg viewBox="0 0 120 44" aria-hidden="true" focusable="false"><path d="M60 16v8H22v8m38-8v8m0-8h38v8"/><rect x="47" y="3" width="26" height="13"/><rect x="14" y="32" width="16" height="9"/><rect x="52" y="32" width="16" height="9"/><rect x="90" y="32" width="16" height="9"/></svg><strong>Federated</strong><span>Central configuration</span></div>
+          <div><svg viewBox="0 0 120 44" aria-hidden="true" focusable="false"><path d="M60 25v7H22v7m38-7v7m0-7h38v7"/><rect x="39" y="3" width="42" height="22"/><path d="M46 10h27m-27 7h27M14 39h16m22 0h16m22 0h16"/></svg><strong>Centralized</strong><span>One server, all branches</span></div>
+        </div>
+      </section>
+    </article>
+    <article class="security-experiment" aria-labelledby="security-project-heading">
+      <header class="system-register"><span>01.02 / AGENTIC CYBERSECURITY</span><span class="system-status prototype-status">PROTOTYPE</span></header>
+      <div class="security-heading"><h4 id="security-project-heading">Security gaps.<br /><span>A path to remediation.</span></h4><p>Helping the cybersecurity team build a prototype for dynamic remediation planning.</p></div>
+      <div class="workflow-equation" role="group" aria-label="Configured sources and available patching capabilities feed dynamic workflow generation">
+        <div class="workflow-term"><span class="workflow-symbol" aria-hidden="true">◎</span><strong>Configured sources</strong><p>CrowdStrike · Tanium · Trend</p></div>
+        <span class="workflow-operator" aria-hidden="true">+</span>
+        <div class="workflow-term"><span class="workflow-symbol" aria-hidden="true">⌘</span><strong>Configured capabilities</strong><p>Available patching tools</p></div>
+        <span class="workflow-operator workflow-transition" aria-hidden="true">→</span>
+        <div class="workflow-term workflow-output"><span class="workflow-symbol" aria-hidden="true">↳</span><strong>Dynamic workflows</strong><p>Paths to remediation</p></div>
+      </div>
+    </article>
+  </div>
+</section>
+<section class="company-sheet" id="rangle-work" aria-labelledby="rangle-work-heading">
+  <aside class="company-context">
+    <span class="sheet-code">02 / 2023—2025</span>
+    <h3 id="rangle-work-heading">Rangle.io</h3>
+    <ul class="company-roles"><li><strong>Principal Technical Director</strong><span>Nov 2023—Aug 2025</span></li><li><strong>Technical Director</strong><span>Jan 2023—Nov 2023</span></li></ul>
+    <div class="practice-themes" aria-label="Rangle work themes"><span>01 / Project rescue</span><span>02 / Modernization</span><span>03 / Telemedicine</span><span>04 / E-commerce</span></div>
+    <p class="leadership-note leadership-principle"><strong>Servant leadership, in practice.</strong> Mentoring and supporting direct reports, with guidance on career development and personal growth.</p>
+    <p class="logbook-people"><strong>16</strong><span>developers, architects &amp; managers mentored as Principal Technical Director</span></p>
+    <p class="leadership-note">Previously managed and supported 8 developers and architects as Technical Director. Supported pre-sales and meetups, alongside hiring, performance reviews, and tech talks.</p>
+  </aside>
+  <div class="workbench">
+    <div class="bench-register"><span>FIELDWORK / RANGLE.IO</span><span>09 PROJECTS · 03 THREADS</span></div>
+    <section class="bench-thread bench-rescue" aria-labelledby="rescue-thread">
+      <header class="thread-heading"><span class="thread-number" aria-hidden="true">01</span><h4 id="rescue-thread">Rescue<span aria-hidden="true">↗</span></h4><p>Find a way through.</p></header>
+      <div class="rescue-composition">
+        <article class="bench-project rescue-story" aria-labelledby="angfa-heading">
+          <span class="bench-kicker">TELEMEDICINE / JAPAN</span><h5 id="angfa-heading">Angfa / Medicalbase</h5>
+          <p>Led the rescue and rebuild of Medicalbase for Angfa’s clinics in Japan.</p>
+          <p class="bench-scope">Configurable patient onboarding questionnaires, scheduling, live chat, patient records, prescription tracking, follow-ups, and shipment/parcel tracking.</p>
+        </article>
+        <figure class="rescue-sketch">
+          <div class="rescue-before"><span>3 years</span><small>not meeting the need</small></div>
+          <img src="/assets/rescue-route.svg" alt="A broken route is reconnected by a bright pink structural span." width="360" height="160" loading="lazy" />
+          <figcaption><strong>4 months</strong><span>our team → working solution</span></figcaption>
+        </figure>
+        <article class="bench-project rescue-followup" aria-labelledby="flashfoods-heading"><header><span class="bench-kicker">TARGETED DEBUGGING</span><h5 id="flashfoods-heading">Flashfoods</h5></header><p>Resolved recurring pre-production bugs in Stripe payments and order flows that had blocked the team for weeks.</p></article>
+      </div>
+    </section>
+    <section class="bench-thread bench-rebuild" aria-labelledby="rebuild-thread">
+      <header class="thread-heading"><span class="thread-number" aria-hidden="true">02</span><h4 id="rebuild-thread">Rebuild<span aria-hidden="true">↔</span></h4><p>Make the pieces work.</p></header>
+      <div class="rebuild-composition">
+        <figure class="rebuild-sketch"><img src="/assets/modernization-detail.svg" alt="An exploded software stack, with its layers exposed and connected by construction lines." width="300" height="245" loading="lazy" /><figcaption>TAKE APART<br />UNDERSTAND<br /><span>BUILD FORWARD ↗</span></figcaption></figure>
+        <div class="rebuild-projects">
+          <div class="migration-pair">
+            <article class="bench-project" aria-labelledby="link-heading"><span class="bench-kicker">PLATFORM MODERNIZATION</span><h5 id="link-heading">Link Investments</h5><p>Led the investment platform’s full modernization, contributing hands-on to implementation.</p><div class="migration-mark">Angular <span>→</span> Next.js</div></article>
+            <article class="bench-project" aria-labelledby="dreamfactory-heading"><span class="bench-kicker">FRONTEND MODERNIZATION</span><h5 id="dreamfactory-heading">Dreamfactory</h5><p>Implemented the platform’s frontend migration end to end.</p><div class="migration-mark">Angular <strong>2 <span>→</span> 16</strong></div></article>
           </div>
+          <article class="bench-project rebuild-followup" aria-labelledby="pharmacy-heading"><span class="bench-kicker">TELEPHARMACY / E-COMMERCE</span><h5 id="pharmacy-heading">PharmacyOnline.co.uk</h5><p>Led telepharmacy and e-commerce delivery. My hands-on work focused on <strong>Sanity CMS integration and custom questionnaires.</strong></p><p class="bench-scope">The platform covered the cart, payments, communications, ID validation, account management, backend inventory management, and shipping.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="bench-thread bench-enable" aria-labelledby="enable-thread">
+      <header class="thread-heading"><span class="thread-number" aria-hidden="true">03</span><h4 id="enable-thread">Enable<span aria-hidden="true">→</span></h4><p>Help the next thing happen.</p></header>
+      <div class="enable-composition">
+        <article class="bench-project" aria-labelledby="rocket-heading"><span class="bench-kicker">SHARED UI / PERFORMANCE</span><h5 id="rocket-heading">Rocket.com</h5><p>Supported website modernization and helped build a shared design system and component library. Optimized caching and GraphQL queries for property search.</p></article>
+        <figure class="flow-sketch"><figcaption><strong>Near real time</strong><span>PROPERTY SEARCH RESPONSES</span></figcaption><img src="/assets/enable-flow.svg" alt="Overlapping waves resolve into parallel paths, then branch toward new work." width="400" height="180" loading="lazy" /></figure>
+        <article class="bench-project bench-project--ruled" aria-labelledby="movebuddy-heading"><span class="bench-kicker">WEB MODERNIZATION</span><h5 id="movebuddy-heading">Movebuddy</h5><p>Helped scaffold the crate and storage company’s frontend rebuild, then supported delivery through leadership. The work focused on improving lead generation.</p></article>
+        <article class="bench-project bench-project--ruled" aria-labelledby="medtronics-heading"><span class="bench-kicker">REPORTING / ANALYTICS</span><h5 id="medtronics-heading">Medtronics</h5><p>Led delivery of an internal reporting and analytics platform built to replace Power BI, contributing hands-on to implementation.</p></article>
+        <article class="bench-project bench-project--ruled bench-project--wide" aria-labelledby="rbc-heading"><span class="bench-kicker">FINANCIAL SERVICES / TEAM SUPPORT</span><h5 id="rbc-heading">RBC personal wealth</h5><p>Supported a team of 6–8 developers working on the personal wealth platform, primarily in a leadership capacity.</p></article>
+      </div>
+    </section>
+    <div class="bench-register bench-end"><span>PEOPLE + SYSTEMS + DELIVERY</span><span>2023—2025 / RANGLE.IO</span></div>
+  </div>
+</section>
+<section class="company-sheet company-sheet--accent" id="cgi-work" aria-labelledby="cgi-work-heading">
+  <aside class="company-context">
+    <span class="sheet-code">03 / 2020—2022</span>
+    <h3 id="cgi-work-heading">CGI</h3>
+    <ul class="company-roles"><li><strong>Director Consulting Services</strong><span>Jul 2022—Dec 2022</span></li><li><strong>Director Consulting Expert</strong><span>Aug 2021—Jul 2022</span></li><li><strong>Senior Consultant</strong><span>Apr 2020—Aug 2021</span></li></ul>
+    <div class="practice-themes" aria-label="CGI work themes"><span>01 / Banking</span><span>02 / E-forms</span><span>03 / STEM initiative</span></div>
+    <figure class="leadership-study"><img src="/assets/steady-systems.svg" alt="Balanced forms above steady waves, an illustration of alignment and stability." width="360" height="230" loading="lazy" /><figcaption><strong>10–15</strong><span>developers, designers, project managers &amp; business analysts led</span></figcaption></figure>
+    <p class="leadership-note">Supported BMO delivery, worked with senior client stakeholders, and contributed to technical recruitment and pre-sales.</p>
+  </aside>
+  <div class="work-surface">
+    <div class="surface-register"><span>03 / BANKING SYSTEMS</span><span>BMO</span></div>
+    <div class="surface-lead">
+      <figure class="surface-sketch forms-sketch"><img src="/assets/forms-detail.svg" alt="Layered electronic forms with fields and a signature, connected by construction lines." width="300" height="245" loading="lazy" /><figcaption>FORMS / PEOPLE / PLATFORMS</figcaption></figure>
+      <article class="surface-project surface-feature" aria-labelledby="eforms-heading"><span class="surface-kicker">03.01 / TEAM LEADERSHIP &amp; DELIVERY</span><h4 id="eforms-heading">Enterprise<br /><span>e-forms.</span></h4><p>Led a four-developer team supporting BMO’s Enterprise E-forms Centre of Excellence, then grew and led the development team as Director Consulting Expert.</p></article>
+    </div>
+    <div class="surface-pair">
+      <article class="surface-project" aria-labelledby="connect-heading"><span class="surface-kicker">03.02 / BRANCH SOFTWARE</span><h4 id="connect-heading">Customer Connect</h4><p>Supported migration of the solution used by BMO branches.</p></article>
+      <article class="surface-project" aria-labelledby="business-banking-heading"><span class="surface-kicker">03.03 / BUSINESS BANKING</span><h4 id="business-banking-heading">Business Banking Express</h4><p>Supported development of BMO’s business banking solution.</p></article>
+    </div>
+    <section class="stem-thread" aria-labelledby="stem-heading">
+      <div class="surface-project">
+        <span class="surface-kicker">03.04 / BEYOND DELIVERY</span>
+        <h4 id="stem-heading">STEM initiative<span aria-hidden="true">↗</span></h4>
+        <p>Helped plan the curriculum, organize workshops, and teach as part of CGI’s STEM initiative.</p>
+        <span class="surface-material">Science · Technology<br />Engineering · Mathematics</span>
+      </div>
+      <figure class="surface-sketch stem-sketch">
+        <img src="/assets/stem-learning.svg" alt="An open book branches into an atom, code, a bridge, and mathematical symbols, connecting the four STEM disciplines through learning." width="460" height="220" loading="lazy" />
+      </figure>
+    </section>
+  </div>
+</section>
+<section class="company-sheet" id="dcm-work" aria-labelledby="dcm-work-heading">
+  <aside class="company-context">
+    <span class="sheet-code">04 / 2015—2020</span>
+    <h3 id="dcm-work-heading">DCM</h3>
+    <ul class="company-roles"><li><strong>Senior Programmer</strong><span>Nov 2018—Apr 2020</span></li><li><strong>Programming Coordinator</strong><span>May 2015—Oct 2018</span></li></ul>
+    <div class="practice-themes" aria-label="DCM work themes"><span>01 / CCM</span><span>02 / Print</span><span>03 / Mail</span><span>04 / Omnichannel communication</span><span>05 / Cannabis</span></div>
+  </aside>
+  <div class="work-surface">
+    <div class="surface-register"><span>04 / PRODUCTION SYSTEMS</span><span>DIGITAL → PHYSICAL</span></div>
+    <div class="surface-lead production-lead">
+      <article class="surface-project surface-feature" aria-labelledby="packaging-heading"><span class="surface-kicker">04.01 / CANNABIS PACKAGING</span><h4 id="packaging-heading">Design.<br /><span>Print. Ship.</span></h4><p>Developed an end-to-end packaging platform.</p></article>
+      <figure class="surface-sketch packaging-sketch"><img src="/assets/packaging-detail.svg" alt="An unfolded packaging dieline and label, showing the bridge from digital design to a physical product." width="225" height="245" loading="lazy" /><figcaption><strong>10</strong><span>major Canadian<br />cannabis distributors</span></figcaption></figure>
+    </div>
+    <div class="surface-register"><span>04.02 / BRAND OPERATIONS</span><span>ACROSS CANADA</span></div>
+    <article class="surface-project brand-thread" aria-labelledby="scotia-heading"><h4 id="scotia-heading">Scotiabank rebranding</h4><p>Spearheaded development of a design-to-print CMS supporting Scotiabank’s rebranding across Canada.</p><span class="surface-material">CMS · National brand production</span></article>
+    <div class="production-backbone"><span class="backbone-label">THE PRODUCTION BACKBONE ↓</span><div class="surface-pair">
+      <article class="surface-project" aria-labelledby="automation-heading"><span class="surface-kicker">04.03 / AUTOMATION</span><h4 id="automation-heading">Less repetitive work</h4><p>Built scalable business-process and data-extraction automation, including file transfers and batch processing, using HelpSystems Automate Enterprise.</p><span class="surface-material">Automate Enterprise</span></article>
+      <article class="surface-project" aria-labelledby="documents-heading"><span class="surface-kicker">04.04 / CCM, PRINT &amp; MAIL</span><h4 id="documents-heading">Documents &amp; data</h4><p>Built Quadient Inspire solutions and third-party integrations for banking statements, mailed pamphlets, packaging labels, and shipping labels. Prepared data for variable-data printing and mailing in line with Canada Post and USPS standards.</p><span class="surface-material">Quadient Inspire · Data processing</span></article>
+    </div></div>
+  </div>
+</section>
+<section class="company-sheet independent-sheet" id="independent-work" aria-labelledby="independent-heading">
+  <aside class="company-context"><span class="sheet-code">05 / INDEPENDENT</span><h3 id="independent-heading">Off the<br />clock.</h3><p class="leadership-note">Native tools, agent orchestration, games, and small components. Built to explore an idea or solve a particular problem.</p></aside>
+  <div class="work-surface independent-surface">
+    <article class="indie-project" aria-labelledby="sotto-heading">
+      <header class="surface-register"><span>05.01 / LOCAL-FIRST MEETING WORKSPACE</span><span class="surface-status">IN DEVELOPMENT</span></header>
+      <div class="indie-composition"><div class="surface-project"><h4 id="sotto-heading" class="indie-name">Sotto<span aria-hidden="true">_</span></h4><p>Building a native macOS meeting workspace in Rust. On-device transcription forms a local meeting record; optional AI turns that record into cited notes and answers. Captured evidence stays separate from generated interpretation.</p><span class="surface-material">Rust · GPUI · Whisper · SQLite</span><div class="surface-links"><a href="https://github.com/judgemavi/sotto" target="_blank" rel="noopener noreferrer">Sotto on GitHub ↗</a></div></div><figure class="surface-sketch"><img src="/assets/sotto-record.svg" alt="An audio waveform becomes a chronological meeting record, with a derived note linked back to its supporting entries." width="420" height="250" loading="lazy" /><figcaption>LOCAL RECORD → CITED NOTES</figcaption></figure></div>
+    </article>
+    <article class="indie-project" aria-labelledby="orca-heading">
+      <header class="surface-register"><span>05.02 / CODING-AGENT ORCHESTRATION</span><span>DEVELOPER TOOLING</span></header>
+      <div class="indie-composition indie-composition--reversed"><figure class="surface-sketch"><img src="/assets/orca-branches.svg" alt="A task branches into isolated worktrees and rejoins through a review checkpoint, with project memory feeding back into planning." width="420" height="250" loading="lazy" /><figcaption>PLAN → ISOLATE → REVIEW → MERGE</figcaption></figure><div class="surface-project"><h4 id="orca-heading" class="indie-name">Orca<span aria-hidden="true">↗</span></h4><p>A coding-agent orchestrator that breaks goals into tasks, runs CLI agents in isolated Git worktrees, and brings planning, review, and merging into one workflow. Includes a live web console and reusable project memory.</p><span class="surface-material">TypeScript · Bun · React · Git worktrees</span><div class="surface-links"><a href="https://github.com/judgemavi/orca" target="_blank" rel="noopener noreferrer">Orca on GitHub ↗</a></div></div></div>
+    </article>
+    <article class="indie-project" aria-labelledby="cell-heading">
+      <header class="surface-register"><span>05.03 / CELL CONQUEST</span><span>MULTIPLAYER GAME</span></header>
+      <div class="indie-composition"><div class="surface-project"><h4 id="cell-heading">Cell Conquest</h4><p>A multiplayer version of Conway's Game of Life with added rules for conquest and domination. Players compete to control territory through strategic cell placement and survival mechanics.</p><span class="surface-material">Bun · Redis · ElysiaJS · React</span><div class="surface-links"><a href="https://github.com/judgemavi/cell-conquest" target="_blank" rel="noopener noreferrer">Cell Conquest on GitHub ↗</a></div></div><div class="specimen game-field" aria-hidden="true"><span class="specimen-caption">CELLULAR AUTOMATA</span><div class="cell-study"></div><span class="specimen-scale">CONWAY'S GAME OF LIFE / CONCEPT DIAGRAM</span></div></div>
+    </article>
+    <article class="indie-project component-suite" aria-labelledby="tiny-heading">
+      <header class="surface-register"><span>05.04 / TINY BITS</span><span class="surface-status">DEPRECATED</span></header>
+      <div class="component-intro"><h4 id="tiny-heading">Tiny Bits.<br /><span>Small parts, shared principles.</span></h4><a href="https://github.com/judgemavi/tiny-bits" target="_blank" rel="noopener noreferrer">Tiny Bits on GitHub ↗</a></div>
+      <div class="component-composition"><figure class="surface-sketch"><img src="/assets/dialog-study.svg" alt="An interface separated into page, backdrop, and floating layer, illustrating the shared primitives behind Tiny Bits." width="400" height="260" loading="lazy" /><figcaption>NATIVE FOUNDATIONS / COMPOSABLE PARTS</figcaption></figure><div class="component-parts">
+        <section class="surface-project" aria-labelledby="dialog-heading"><span class="surface-kicker">01 / DIALOG</span><h5 id="dialog-heading">@tiny-bits/react-dialog</h5><p>Built on the native HTML dialog element.</p></section>
+        <section class="surface-project" aria-labelledby="popover-heading"><span class="surface-kicker">02 / POPOVER</span><h5 id="popover-heading">@tiny-bits/react-popover</h5><p>Built on the browser’s popover API.</p></section>
+      </div></div><p class="component-materials">Accessible, composable React components. Written in TypeScript with zero dependencies.</p>
+    </article>
+  </div>
+</section>
+          <div class="archive-register archive-footer"><span>END OF THE PAGE. STILL MAKING THINGS.</span><a href="#main">Back to the top ↑</a></div>
         </div>
       </section>
     </main>
-  <script src="/js/desk.js?v=cancel-click"></script>
+    <footer class="contact-footer" id="contact">
+      <div class="column">
+        <div class="footer-register"><span>HAVE SOMETHING IN MIND?</span><span>LET'S TALK.</span></div>
+        <div class="contact-composition">
+          <div class="footer-links"><a href="mailto:jasjeetmavi@gmail.com">jasjeetmavi@gmail.com</a><div><a href="https://www.linkedin.com/in/jasjeetmavi/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/judgemavi" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div>
+          <a class="cv-link" href="data:application/pdf;base64,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PqKMAEHolFgX8lk4EZTBuGGtFV505HdvRRZpeqcK2cGtdnfS7uVW+CwnATTK2KFsZUv/yKJahhxca1yg87AB9yQakgc61p7YoPfCm0Nx/1yjuozmQrsKwhTbLFd206mE9U/oWi/3yuICcSDqPhSAx4soq7yQ8fKZRoekaw0snbzQBiDLAraUzoqaC0aPwipGvsM4R1LzY/ZQClUErbgrzC6GFrgq6Ma4OEq+LG+WSdvGM+imDf2W84v5bDU/o8XV2fxmjn9XK7q5vf6Ep8u3a09/OmK2xLVnf9O29vQnw2epMR4CCXmJmliK7HpJJfY6zjCIIDCVeGGhD6W6DdH+uJekg+CBmynAKOi2ZkyqqsDMDRwM1TeahyU2JwqMzayqwo8MnqDC8HxuIsLQgngldF3t++pkwevFpua9K1Os99p42crl/hB7bIwvuNFux+vBLkfj0IOUQaoyUfnawiSi2/AwxhYCPjLr76wpaSux3wj2qWITSB/Sam2E/mCQTKJ3huSIzm++LI7oa65cxf26/HyBVAD6FvjU6yQz5fF9vYHkYNc+dlyyttnTT7EARxfXNhOwNTNchQ6Eiyet5QHsY0u1htuDqqbB1gnGqSnQm8JjjEvx4GhrROEYAUNeuIc41W2NRp1dLCi4459JOVMEsM6VD8zCriPRZ2s+Eewnw374WgAud6GH22JLp9NkGmPDnAx2QihGy+e+TEBe7mXeOKhgmu/kmsUcEUWtsbJ2QVufV1VZGvvUWsgUU2Mcva+eKrkM3D3C/IAG32JN4NIeZvteSVEO0VbRdIRpvvel9BOdKs/2ghskU1ZIGZUtFAaNVcHXmQQnMwa9NZHhsDnXzVBWLpPIeLgooHIUzUeEMIZxyItLsqnMI5aTZ+cOs4knJ5pXRz1ZW8giXjm5WaDUceS8IBX6vzU0TI39YfCHtAYqVGHHQDuq/7Gdp1D2/QHvt8BDVJ46ayD5ytDkDT6/O/OmdEzN6es/Ykd7UAplbmRzdHJlYW0KZW5kb2JqCjkgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvTWVkaWFCb3ggWzAgMCA2MTIgNzkyXSAvUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMSAzIDAgUiAvRjIgNCAwIFIgPj4gPj4gL0NvbnRlbnRzIDggMCBSID4+CmVuZG9iagp4cmVmCjAgMTAKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE1IDAwMDAwIG4gCjAwMDAwMDAwNzggMDAwMDAgbiAKMDAwMDAwMDE0MSAwMDAwMCBuIAowMDAwMDAwMjM4IDAwMDAwIG4gCjAwMDAwMDAzNDAgMDAwMDAgbiAKMDAwMDAwMDQ3MyAwMDAwMCBuIAowMDAwMDAyNTg2IDAwMDAwIG4gCjAwMDAwMDI3MjIgMDAwMDAgbiAKMDAwMDAwNDM2NiAwMDAwMCBuIAp0cmFpbGVyCjw8IC9TaXplIDEwIC9Sb290IDEgMCBSIC9JbmZvIDUgMCBSID4+CnN0YXJ0eHJlZgo0NTAyCiUlRU9GCg==" download="jasjeet-mavi-cv.pdf" aria-label="Download Jasjeet Mavi's CV as a PDF">
+            <span class="cv-label"><strong>CV / PDF</strong><span aria-hidden="true">↓</span></span>
+            <span class="cv-code"><!-- cv-pdf:start --><span class="cv-data" aria-hidden="true">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PqKMAEHolFgX8lk4EZTBuGGtFV505HdvRRZpeqcK2cGtdnfS7uVW+CwnATTK2KFsZUv/yKJahhxca1yg87AB9yQakgc61p7YoPfCm0Nx/1yjuozmQrsKwhTbLFd206mE9U/oWi/3yuICcSDqPhSAx4soq7yQ8fKZRoekaw0snbzQBiDLAraUzoqaC0aPwipGvsM4R1LzY/ZQClUErbgrzC6GFrgq6Ma4OEq+LG+WSdvGM+imDf2W84v5bDU/o8XV2fxmjn9XK7q5vf6Ep8u3a09/OmK2xLVnf9O29vQnw2epMR4CCXmJmliK7HpJJfY6zjCIIDCVeGGhD6W6DdH+uJekg+CBmynAKOi2ZkyqqsDMDRwM1TeahyU2JwqMzayqwo8MnqDC8HxuIsLQgngldF3t++pkwevFpua9K1Os99p42crl/hB7bIwvuNFux+vBLkfj0IOUQaoyUfnawiSi2/AwxhYCPjLr76wpaSux3wj2qWITSB/Sam2E/mCQTKJ3huSIzm++LI7oa65cxf26/HyBVAD6FvjU6yQz5fF9vYHkYNc+dlyyttnTT7EARxfXNhOwNTNchQ6Eiyet5QHsY0u1htuDqqbB1gnGqSnQm8JjjEvx4GhrROEYAUNeuIc41W2NRp1dLCi4459JOVMEsM6VD8zCriPRZ2s+Eewnw374WgAud6GH22JLp9NkGmPDnAx2QihGy+e+TEBe7mXeOKhgmu/kmsUcEUWtsbJ2QVufV1VZGvvUWsgUU2Mcva+eKrkM3D3C/IAG32JN4NIeZvteSVEO0VbRdIRpvvel9BOdKs/2ghskU1ZIGZUtFAaNVcHXmQQnMwa9NZHhsDnXzVBWLpPIeLgooHIUzUeEMIZxyItLsqnMI5aTZ+cOs4knJ5pXRz1ZW8giXjm5WaDUceS8IBX6vzU0TI39YfCHtAYqVGHHQDuq/7Gdp1D2/QHvt8BDVJ46ayD5ytDkDT6/O/OmdEzN6es/Ykd7UAplbmRzdHJlYW0KZW5kb2JqCjkgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvTWVkaWFCb3ggWzAgMCA2MTIgNzkyXSAvUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMSAzIDAgUiAvRjIgNCAwIFIgPj4gPj4gL0NvbnRlbnRzIDggMCBSID4+CmVuZG9iagp4cmVmCjAgMTAKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE1IDAwMDAwIG4gCjAwMDAwMDAwNzggMDAwMDAgbiAKMDAwMDAwMDE0MSAwMDAwMCBuIAowMDAwMDAwMjM4IDAwMDAwIG4gCjAwMDAwMDAzNDAgMDAwMDAgbiAKMDAwMDAwMDQ3MyAwMDAwMCBuIAowMDAwMDAyNTg2IDAwMDAwIG4gCjAwMDAwMDI3MjIgMDAwMDAgbiAKMDAwMDAwNDM2NiAwMDAwMCBuIAp0cmFpbGVyCjw8IC9TaXplIDEwIC9Sb290IDEgMCBSIC9JbmZvIDUgMCBSID4+CnN0YXJ0eHJlZgo0NTAyCiUlRU9GCg==</span><!-- cv-pdf:end --></span>
+            <span class="cv-caption"><span>BASE64 ENCODED</span><span>DOWNLOAD PDF</span></span>
+          </a>
+        </div>
+      </div>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" fill="none" stroke="#191919" stroke-width="1.5">
+  <title>A shared cash-recycling application</title>
+  <desc>Two devices connect through separate adapters into a common application with a teller interface and analytics.</desc>
+  <path d="M16 140h404M250 18v244" stroke-opacity=".25" stroke-dasharray="3 5"/>
+  <g>
+    <path d="M23 25h64l12 12v81H23z" fill="#ededeb"/><path d="M87 25v93M87 37h12"/>
+    <path d="M33 39h43v28H33z" fill="#e4ff00"/><path d="M40 47h28m-28 8h19M33 77h43v6H33zM37 94h34m-34 7h34"/>
+    <path d="M23 163h64l12 12v81H23z" fill="#ededeb"/><path d="M87 163v93M87 175h12"/>
+    <path d="M33 177h43v28H33z" fill="#ff2bd6"/><path d="M40 185h28m-28 8h19M33 215h43v6H33zM37 232h34m-34 7h34"/>
+  </g>
+  <g fill="#ff2bd6"><rect x="134" y="54" width="55" height="33"/><rect x="134" y="192" width="55" height="33"/></g>
+  <g><path d="m145 64-5 7 5 7m32-14 5 7-5 7m-14-18-5 21M145 202l-5 7 5 7m32-14 5 7-5 7m-14-18-5 21"/><path d="M99 71h35m-35 138h35M189 71h30v69h48m-78 69h30v-69"/></g>
+  <rect x="267" y="108" width="145" height="65" fill="#e4ff00"/>
+  <path d="M280 121h119M280 157h119"/>
+  <g fill="#191919" stroke="none" font-family="monospace" font-size="14"><text x="312" y="145">RUST</text></g>
+  <rect x="288" y="22" width="108" height="48" fill="#ededeb"/>
+  <path d="M288 34h108m-94-6h5m5 0h5M300 46h53m-53 9h75M342 70v38m-4-5 4 5 4-5"/>
+  <rect x="288" y="211" width="108" height="48" fill="#ededeb"/>
+  <path d="M300 246h82m-71 0v-10h11v10m12 0v-23h11v23m12 0v-17h11v17M342 173v38m-4-5 4 5 4-5"/>
+  <g fill="#191919" stroke="none" font-family="monospace" font-size="10"><text x="287" y="15">REACT / TELLER UI</text><text x="288" y="204">ANALYTICS</text></g>
+  <circle cx="219" cy="140" r="4" fill="#191919"/>
+</svg>

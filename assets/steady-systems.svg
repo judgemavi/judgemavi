@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" fill="none" stroke="#191919" stroke-width="1.4">
+  <title>Alignment and balance</title>
+  <desc>Three balanced forms over continuous waves represent holding people, decisions, and systems in balance.</desc>
+  <path d="M180 12v173M32 161h296" stroke-dasharray="3 5" stroke-opacity=".3"/>
+  <path d="M95 149q-5-20 31-26t95-1q53 9 47 27-4 16-78 17-87 1-95-17z" fill="#e4ff00"/>
+  <path d="M136 100q-13-22 22-34t60-1q37 11 17 34-8 14-54 14-36 0-45-13z" fill="#ededeb"/>
+  <path d="M163 47q-7-13 7-22t29 0q13 10 3 22-10 10-22 9-12 0-17-9z" fill="#ff2bd6"/>
+  <path d="m174 57 11 7m-5 50 6 6"/>
+  <g stroke-width="1.1">
+    <path d="M18 185q40-22 80 0t80 0 80 0 84 0"/>
+    <path d="M18 195q40-22 80 0t80 0 80 0 84 0"/>
+    <path d="M18 205q40-22 80 0t80 0 80 0 84 0"/>
+  </g>
+  <path d="M111 69h-25v49m155-73h35v66M83 118h6m184-7h6" stroke-opacity=".55"/>
+  <circle cx="180" cy="185" r="4" fill="#ff2bd6"/>
+</svg>

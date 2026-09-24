@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 250" fill="none" stroke="#191919" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <title>From conversation to a cited record</title><desc>An audio waveform feeds a local timeline. A derived note links back to its supporting entries rather than replacing the record.</desc>
+  <path d="M18 31h384M18 219h384M213 12v224" stroke-dasharray="3 6" stroke-opacity=".25"/>
+  <path d="M18 84h17l8-24 10 48 10-65 10 80 10-48 10 23 10-14h30"/>
+  <path d="M18 98h17l8-24 10 48 10-65 10 80 10-48 10 23 10-14h30" stroke="#ff2bd6"/>
+  <path d="M137 91h38v79h213m-8-6 8 6-8 6"/>
+  <g fill="#ededeb"><rect x="193" y="118" width="58" height="35"/><rect x="265" y="183" width="58" height="35"/><rect x="337" y="118" width="58" height="35"/></g>
+  <path d="M203 129h37m-37 11h25m50 54h34m-34 11h24m68-76h37m-37 11h25M222 153v17m72 0v13m72-30v17"/>
+  <g fill="#ff2bd6"><circle cx="222" cy="170" r="4"/><circle cx="294" cy="170" r="4"/></g><circle cx="366" cy="170" r="4" fill="#e4ff00"/>
+  <path d="M250 21h112l20 20v55H250z" fill="#e4ff00"/><path d="M362 21v20h20M264 42h66m-66 12h99m-99 12h78m-78 14h44"/>
+  <path d="M277 96v10h-55v12m124-22v11h20v11" stroke-dasharray="3 4"/>
+  <circle cx="266" cy="80" r="4" fill="#ff2bd6"/>
+  <path d="M22 187h104m-104 10h79m-79 10h89" stroke-opacity=".35"/>
+</svg>

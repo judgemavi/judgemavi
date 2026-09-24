@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 160" fill="none" stroke="#191919" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Reconnect the route</title><desc>A broken road is bridged by a pink structural span. Construction lines show the original gap.</desc>
+  <path d="M12 20h336M12 142h336M108 10v142m146-132v122" stroke-dasharray="3 6" stroke-opacity=".25"/>
+  <path d="M8 113h91m165 0h88M8 122h91m165 0h88" stroke-width="2"/>
+  <path d="m99 108 8 10-8 9m165-19-8 10 8 9M108 118h148" stroke-dasharray="3 5"/>
+  <path d="M80 109V40h201v69M80 50h201m-201 59 50-59 50 59 51-59 50 59"/>
+  <path d="M91 105h179v19H91z" fill="#ff2bd6"/>
+  <path d="M80 124v23m201-23v23M67 147h26m175 0h26M35 94h25m-7-7 7 7-7 7"/>
+  <path d="M302 104h37m-10-10 10 10-10 10" stroke-width="3"/>
+  <circle cx="180" cy="23" r="14" fill="#e4ff00"/><path d="m173 23 5 5 10-12"/>
+</svg>
