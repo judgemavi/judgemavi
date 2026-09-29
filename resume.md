@@ -14,7 +14,7 @@ Technologies: Rust, TypeScript, Go, React, Next.js, Angular, GraphQL, and Sanity
 ## Experience
 ### Kyndryl
 Associate Director, Software Engineering | Aug 2025 - Present
-- Owned architecture and implementation of a device-agnostic cash-recycling application in Rust and React, replacing reliance on a third-party offering. The completed application is now offered in RFPs.
+- Owned architecture and implementation of a device-agnostic cash-recycling application in Rust and React, replacing reliance on a third-party offering.
 - Built support for two market-leading devices with an adapter architecture for future devices. The same application supports standalone, federated, and centralized deployments without additional development per configuration.
 - Achieved support for 10x the devices per node compared with known incumbent limits, validated through simulator testing. Built device-protocol simulators alongside testing in a physical device lab.
 - Streamlined testing and release management with a predominantly non-developer team. Introduced automated regression testing and documentation to reduce repetitive work and preserve knowledge for onboarding.

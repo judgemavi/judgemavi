@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#e4ff00"/>
+  <g fill="#191919" font-family="'Schibsted Grotesk', 'Helvetica Neue', Arial, sans-serif">
+    <path d="M48 88H1152M48 540H1152" stroke="#191919" stroke-width="2"/>
+    <g font-family="'JetBrains Mono', monospace" font-size="16">
+      <text x="48" y="58">JM—01 / PEOPLE ↔ SYSTEMS</text>
+      <text x="1152" y="58" text-anchor="end">TORONTO, CANADA</text>
+    </g>
+    <text x="44" y="208" font-size="94" font-weight="600" letter-spacing="-5">JASJEET MAVI</text>
+    <text x="48" y="298" font-size="43" letter-spacing="-1.5">Engineering leadership</text>
+    <rect x="55" y="329" width="666" height="79" fill="#191919"/>
+    <rect x="48" y="322" width="666" height="79" fill="#ff2bd6"/>
+    <text x="63" y="376" font-size="43" letter-spacing="-1.5">↔ Hands-on engineering</text>
+    <text x="48" y="483" font-size="25">Project rescue · Reverse engineering · Systems</text>
+    <g font-family="'JetBrains Mono', monospace" font-size="17">
+      <text x="48" y="588">jasmavi.dev</text>
+      <text x="1152" y="588" text-anchor="end">ARCHITECTURE / CODE / DELIVERY</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#191919" stroke-width="3">
+    <rect x="938" y="260" width="176" height="176"/>
+    <path d="M964 290H1088V410H964ZM990 316H1062V384H990ZM1026 240V280M1026 416V456M918 348H958M1094 348H1134"/>
+    <circle cx="1026" cy="348" r="12" fill="#ff2bd6"/>
+  </g>
+</svg>

@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-"""Embed a text-first PDF download and its visible base64 (Python stdlib only)."""
+"""Build the static, text-first CV PDF (Python stdlib only)."""
 
-import base64
 from pathlib import Path
-import re
 import zlib
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -118,21 +116,6 @@ def make_pdf(source):
 
 if __name__ == "__main__":
     pdf = make_pdf((ROOT / "resume.md").read_text())
-    encoded = base64.b64encode(pdf).decode("ascii")
-    index_path = ROOT / "index.html"
-    html, count = re.subn(
-        r"(<!-- cv-pdf:start -->).*?(<!-- cv-pdf:end -->)",
-        lambda match: f'{match[1]}<span class="cv-data" aria-hidden="true">{encoded}</span>{match[2]}',
-        index_path.read_text(), flags=re.S,
-    )
-    if count != 1:
-        raise ValueError("Expected exactly one CV embed marker in index.html")
-    html, count = re.subn(
-        r'(<a class="cv-link" href=")[^"]*(")',
-        lambda match: f'{match[1]}data:application/pdf;base64,{encoded}{match[2]}',
-        html,
-    )
-    if count != 1:
-        raise ValueError("Expected exactly one CV download link in index.html")
-    index_path.write_text(html)
-    print(f"Embedded PDF ({len(pdf):,} bytes) in the download link and refreshed the visible base64.")
+    output = ROOT / "jasjeet-mavi-cv.pdf"
+    output.write_bytes(pdf)
+    print(f"Built {output.name} ({len(pdf):,} bytes).")
