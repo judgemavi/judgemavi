@@ -59,6 +59,10 @@ Rust, GPUI, Whisper, SQLite | github.com/judgemavi/sotto
 A tool that breaks goals into tasks and runs CLI agents in isolated Git worktrees, bringing planning, review, and merging into one workflow. Includes a live web console and reusable project memory.
 TypeScript, Bun, React, Git worktrees | github.com/judgemavi/orca
 
+### Num | Self-hosted personal finance | In development
+An open-source money app that imports bank statements, learns merchants and spending patterns from each review, and keeps every account reconciled to its bank. Imports and bucket moves are reversible; each API route is also an MCP tool, with AI writes off by default.
+TypeScript, Bun, Hono, React, Drizzle, MCP | github.com/judgemavi/num
+
 ### Tiny Bits | React component libraries | Deprecated
 Created accessible, composable dialog and popover components built on native browser APIs, using TypeScript with zero dependencies.
 github.com/judgemavi/tiny-bits
