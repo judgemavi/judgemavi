@@ -9,7 +9,7 @@ Engineering leader and hands-on builder focused on project rescue and reverse en
 ## Core capabilities
 Leadership: mentoring, career development, delivery, technical recruitment, and pre-sales.
 Engineering: software architecture, modernization, extensible integrations, and test automation.
-Technologies: Rust, TypeScript, Go, React, Next.js, Angular, GraphQL, and Sanity CMS.
+Technologies: Rust, TypeScript, Go, React, Next.js, Angular, GraphQL, various CMS and cloud compute platforms.
 
 ## Experience
 ### Kyndryl
