@@ -1,7 +1,7 @@
 # Jasjeet Mavi
 Technology leadership & hands-on engineering
-Toronto, Canada | jasjeetmavi@gmail.com | jasmavi.dev
-linkedin.com/in/jasjeetmavi | github.com/judgemavi
+Toronto, Canada | jasjeetmavi@gmail.com
+jasmavi.dev | github.com/judgemavi
 
 ## Profile
 Engineering leader and hands-on builder focused on project rescue and reverse engineering. Practice servant leadership by removing obstacles, sharing context, and supporting individual growth while staying close to implementation. Experience spans banking, healthcare, e-commerce, and developer tooling.
@@ -59,7 +59,7 @@ Rust, GPUI, Whisper, SQLite | github.com/judgemavi/sotto
 A tool that breaks goals into tasks and runs CLI agents in isolated Git worktrees, bringing planning, review, and merging into one workflow. Includes a live web console and reusable project memory.
 TypeScript, Bun, React, Git worktrees | github.com/judgemavi/orca
 
-### Num | Self-hosted personal finance | In development
+### Num | Self-hosted personal finance
 An open-source money app that imports bank statements, learns merchants and spending patterns from each review, and keeps every account reconciled to its bank. Imports and bucket moves are reversible; each API route is also an MCP tool, with AI writes off by default.
 TypeScript, Bun, Hono, React, Drizzle, MCP | github.com/judgemavi/num
 
